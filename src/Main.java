@@ -4,13 +4,16 @@ import static java.lang.System.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int valor = 8;
+        int valor = 5;
 
-        if(valor == 9) {
+        if(valor == 8) {
             out.println("valor = 8");
         }
+        else if (valor > 8){
+            out.println("valorR > 8");
+        }
         else {
-            out.println("É um valor diferente");
+            out.println("valor < 8");
         }
     }
 }
